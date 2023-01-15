@@ -1,0 +1,135 @@
+{
+  "mod_elements": [
+    {
+      "name": "FlashDriftOnKeyPressed",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flash_drift_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlashSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flash_sword"
+    },
+    {
+      "name": "FlashArmorArmor",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flash_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "FlashArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flash_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "FlashArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flash_armor_armor_body_recipe"
+    },
+    {
+      "name": "FlashArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flash_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "FlashArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flash_armor_armor_boots_recipe"
+    },
+    {
+      "name": "FlashSwordRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flash_sword_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.nexustest.flash_armor_armor_chestplate": "Flash Chestplate",
+      "item.nexustest.flash_armor_armor_leggings": "Flash Leggings",
+      "item.nexustest.flash_armor_armor_boots": "Flash Boots",
+      "item.nexustest.flash_armor_armor_helmet": "Flash Helmet",
+      "item.nexustest.flash_sword": "Flash Sword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "nexustest",
+    "modName": "NexusTest",
+    "version": "1.0.0",
+    "author": "secretive, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "modElementsPackage": "net.mcreator.nexustest",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_star"
+    },
+    "1": {
+      "item": "minecraft:nether_star"
+    },
+    "2": {
+      "item": "minecraft:nether_star"
+    },
+    "3": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "nexustest:flash_armor_armor_helmet",
+    "count": 1
+  }
+}
